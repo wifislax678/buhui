@@ -1,13 +1,4 @@
-豌豆
-最新BPB面板搭建
-一、准备工作
-1. GitHub 账号：通过 Github Action 自动同步最新 BPB 源代码。
-2. Cloudflare 账号：用于部署 BPB Panel 项目。
-3. 域名：建议使用域名（解决 Cloudflare Pages 自带域名被墙的问题）。
-在仓库根目录下创建 .github/workflows 文件夹，并在其中创建 update-worker.yml 文件。
 
-直接复制：.github/workflows/update-worker.yml
-复制下面的代码：
 
 name: Auto Update Worker
 
